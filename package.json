@@ -1,0 +1,25 @@
+{
+  "name": "filemanager",
+  "version": "2.4.4",
+  "description": "File manager",
+  "main": "index.php",
+  "scripts": {
+    "test": "index.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramkrishna70/filemanager.git"
+  },
+  "keywords": [
+    "filemanager",
+    "php",
+    "cloud9",
+    "opensource"
+  ],
+  "author": "Ram Krishna <ram.krishna@invincix.com>",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/ramkrishna70/filemanager/issues"
+  },
+  "homepage": "https://github.com/ramkrishna70/filemanager#readme"
+}
