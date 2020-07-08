@@ -3,11 +3,11 @@
 /*
 #################################################################################################################
 This is an OPTIONAL configuration file.
-The role of this file is to make updating of "tinyfilemanager.php" easier.
+The role of this file is to make updating of "index.php" easier.
 So you can:
--Feel free to remove completely this file and configure "tinyfilemanager.php" as a single file application.
+-Feel free to remove completely this file and configure "index.php" as a single file application.
 or
--Put inside this file all the static configuration you want and forgot to configure "tinyfilemanager.php".
+-Put inside this file all the static configuration you want and forgot to configure "index.php".
 #################################################################################################################
 */
 
