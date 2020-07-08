@@ -340,7 +340,7 @@ if ($use_auth) {
                         </div>
                         <div class="footer text-center">
                             &mdash;&mdash; &copy;
-                            <a href="https://invincix.com/" target="_blank" class="text-muted" data-version="<?php echo VERSION; ?>">Invincix OpenSource</a> &mdash;&mdash;
+                            <a href="/" target="_blank" class="text-muted" data-version="<?php echo VERSION; ?>">OpenSource</a> &mdash;&mdash;
                         </div>
                     </div>
                 </div>
@@ -1433,7 +1433,7 @@ if (isset($_GET['help'])) {
             <div class="card-body">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
-                        <p><h3><a href="https://invincix.com" target="_blank" class="app-v-title"> Invincix File Manager <?php echo VERSION; ?></a></h3></p> 
+                        <p><h3><a href="/" target="_blank" class="app-v-title">File Manager <?php echo VERSION; ?></a></h3></p> 
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="card">
@@ -2044,9 +2044,9 @@ $tableTheme = (FM_THEME == "dark") ? "text-white bg-dark table-dark" : "bg-white
                     <a href="javascript:document.getElementById('a-copy').click();" class="btn btn-small btn-outline-primary btn-2"><i class="fa fa-files-o"></i> <?php echo lng('Copy') ?> </a></li>
             </ul>
         </div>
-        <div class="col-3 d-none d-sm-block"><a href="https://invincix.com" target="_blank" class="float-right text-muted">Invincix File Manager <?php echo VERSION; ?></a></div>
+        <div class="col-3 d-none d-sm-block"><a href="/" target="_blank" class="float-right text-muted">File Manager <?php echo VERSION; ?></a></div>
         <?php else: ?>
-            <div class="col-12"><a href="https://invincix.com" target="_blank" class="float-right text-muted">Invincix File Manager <?php echo VERSION; ?></a></div>
+            <div class="col-12"><a href="/" target="_blank" class="float-right text-muted">File Manager <?php echo VERSION; ?></a></div>
         <?php endif; ?>
     </div>
 
@@ -3209,7 +3209,7 @@ class FM_Zipper_Tar
         if (strlen($CONFIG)) {
             $data = fm_object_to_array(json_decode($CONFIG));
         } else {
-            $msg = 'Tiny File Manager<br>Error: Cannot load configuration';
+            $msg = 'File Manager<br>Error: Cannot load configuration';
             if (substr($fm_url, -1) == '/') {
                 $fm_url = rtrim($fm_url, '/');
                 $msg .= '<br>';
@@ -3367,7 +3367,7 @@ global $lang, $root_url, $favicon_path;
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with Invincix File Manager">
+    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with File Manager">
     <meta name="author" content="CCP Programmers">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
@@ -3439,7 +3439,7 @@ $isStickyNavBar = $sticky_navbar ? 'navbar-fixed' : 'navbar-normal';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with Invincix File Manager">
+    <meta name="description" content="Web based File Manager in PHP, Manage your files efficiently and easily with File Manager">
     <meta name="author" content="CCP Programmers">
     <meta name="robots" content="noindex, nofollow">
     <meta name="googlebot" content="noindex">
