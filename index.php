@@ -3,9 +3,9 @@
 $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":false,"calc_folder":false}';
 
 /**
- * H3K | Tiny File Manager V2.4.3
- * CCP Programmers | ccpprogrammers@gmail.com
- * https://tinyfilemanager.github.io
+ * File Manager V2.4.3
+ * OpenSource | ccpprogrammers@gmail.com | ramkrishna70@live.com
+ * https://filemanager.bithost.in/
  */
 
 //TFM version
@@ -3970,7 +3970,7 @@ function lng($txt) {
     global $lang;
 
     // English Language
-    $tr['en']['AppName']        = 'Tiny File Manager';      $tr['en']['AppTitle']           = 'File Manager';
+    $tr['en']['AppName']        = 'File Manager';           $tr['en']['AppTitle']           = 'File Manager';
     $tr['en']['Login']          = 'Sign in';                $tr['en']['Username']           = 'Username';
     $tr['en']['Password']       = 'Password';               $tr['en']['Logout']             = 'Sign Out';
     $tr['en']['Move']           = 'Move';                   $tr['en']['Copy']               = 'Copy';
@@ -4025,13 +4025,7 @@ function lng($txt) {
 function fm_get_images()
 {
     return array(
-        'favicon' => 'Qk04AgAAAAAAADYAAAAoAAAAEAAAABAAAAABABAAAAAAAAICAAASCwAAEgsAAAAAAAAAAAAAIQQhBCEEIQQhBCEEIQQhBCEEIQ
-        QhBCEEIQQhBCEEIQQhBCEEIQQhBHNO3n/ef95/vXetNSEEIQQhBCEEIQQhBCEEIQQhBCEEc07ef95/3n/ef95/1lohBCEEIQQhBCEEIQQhBCEEIQ
-        RzTt5/3n8hBDFG3n/efyEEIQQhBCEEIQQhBCEEIQQhBHNO3n/efyEEMUbef95/IQQhBCEEIQQhBCEEIQQhBCEErTVzTnNOIQQxRt5/3n8hBCEEIQ
-        QhBCEEIQQhBCEEIQQhBCEEIQQhBDFG3n/efyEEIQQhBCEEIQQhBCEEIQQhBCEEIQQxRt5/3n+cc2stIQQhBCEEIQQhBCEEIQQhBCEEIQQIIZxz3n
-        /ef5xzay0hBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBDFG3n/efyEEIQQhBCEEIQQhBCEEIQQhBK01c05zTiEEMUbef95/IQQhBCEEIQQhBCEEIQ
-        QhBCEEc07ef95/IQQxRt5/3n8hBCEEIQQhBCEEIQQhBCEEIQRzTt5/3n8hBDFG3n/efyEEIQQhBCEEIQQhBCEEIQQhBKUUOWfef95/3n/ef95/IQ
-        QhBCEEIQQhBCEEIQQhBCEEIQQhBJRW3n/ef95/3n8hBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQhBCEEIQQAAA=='
+        'favicon' => 'Qk02AwAAAAAAADYAAAAoAAAAEAAAABAAAAABABgAAAAAAAADAADEDgAAxA4AAAAAAAAAAAAAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICA19fXAAAA19fXwICAwICAwICAwICAwICAwICAwICA19fXAAAA19fXwICAwICAwICA19fXAAAA19fX19fXwICAwICA19fXwICAwICA19fX19fXAAAA19fX19fXwICAwICA19fXAAAAAAAAAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAAAAAAAAAA19fX19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fXAAAA19fX19fXAAAA19fX19fXAAAAAAAAAAAA19fX19fXAAAAAAAAAAAA19fX19fXAAAAAAAAAAAA19fX19fXwICA19fX19fX19fXwICA19fXAAAA19fX19fXwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICA19fXAAAA19fXwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA19fX19fX19fXwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICA'
     );
 }
 
