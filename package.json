@@ -1,7 +1,7 @@
 {
-  "name": "filemanager",
+  "name": "filemanagram",
   "version": "2.4.4",
-  "description": "File manager",
+  "description": "File manager by ram Krishna in PHP",
   "main": "index.php",
   "scripts": {
     "test": "index.php"
@@ -16,10 +16,10 @@
     "cloud9",
     "opensource"
   ],
-  "author": "Ram Krishna <ram.krishna@invincix.com>",
+  "author": "Ram Krishna <ramkrishna70@live.com>",
   "license": "UNLICENCED",
   "bugs": {
     "url": "https://github.com/ramkrishna70/filemanager/issues"
   },
   "homepage": "https://github.com/ramkrishna70/filemanager#readme"
-}
+} 
